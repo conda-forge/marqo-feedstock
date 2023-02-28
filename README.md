@@ -1,11 +1,11 @@
-About marqo
-===========
+About marqo-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/marqo-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/marqo-ai/marqo
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/marqo-feedstock/blob/main/LICENSE.txt)
 
 Summary: Tensor search for humans
 

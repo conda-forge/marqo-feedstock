@@ -20,6 +20,7 @@ requirements:
     - python >=3.0
     - setuptools >=42
   run:
+    - pydantic
     - python >=3.0
     - requests
     - urllib3

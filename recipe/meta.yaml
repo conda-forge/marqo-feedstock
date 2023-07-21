@@ -17,11 +17,11 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.0
+    - python >=3.6
     - setuptools >=42
   run:
-    - pydantic
-    - python >=3.0
+    - pydantic <2.0.0
+    - python >=3.6
     - requests
     - urllib3
 

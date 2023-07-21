@@ -20,6 +20,7 @@ requirements:
     - python >=3.6
     - setuptools >=42
   run:
+    - packaging
     - pydantic <2.0.0
     - python >=3.6
     - requests

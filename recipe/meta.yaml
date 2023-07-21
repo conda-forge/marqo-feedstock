@@ -1,5 +1,5 @@
 {% set name = "marqo" %}
-{% set version = "0.11.0" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/marqo-{{ version }}.tar.gz
-  sha256: 808e691cf06f5f7d67d422dc7f5f6fcc53b9acc6a4bc000abbcae8a817fd765d
+  sha256: f4af5bf3a4cdf39c89e33def0e172d9391191a93aa9423d5d834bd26ae3005cc
 
 build:
   noarch: python
@@ -17,11 +17,12 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.0
+    - python >=3.6
     - setuptools >=42
   run:
-    - pydantic
-    - python >=3.0
+    - packaging
+    - pydantic <2.0.0
+    - python >=3.6
     - requests
     - urllib3
 

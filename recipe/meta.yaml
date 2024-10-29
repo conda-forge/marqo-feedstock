@@ -1,5 +1,5 @@
 {% set name = "marqo" %}
-{% set version = "3.8.1" %}
+{% set version = "3.9.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/marqo-{{ version }}.tar.gz
-  sha256: 1e7565805bc78752bd18f1fcaa21fa008b63422ca354cbdc26a7ada1fe9ac9b8
+  sha256: bbb115fd8ddfe15f15258f7ab6557538d3b9496d2244a4ff6f39588dc4a404c3
 
 build:
   noarch: python

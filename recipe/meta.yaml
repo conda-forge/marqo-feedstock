@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/marqo-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/marqo-{{ version }}.tar.gz
   sha256: 81dfa2fc936d8e41a7ee7b24c9e3b68ca1eaade5d6534d876d33168d6dd20619
 
 build:
@@ -24,7 +24,7 @@ requirements:
     - requests
     - urllib3 <2.0.0,>=1.26.0
     - pydantic >=2.0.0
-    - typing-extensions >=4.5.0
+    - typing_extensions >=4.5.0
     - packaging
 
 test:

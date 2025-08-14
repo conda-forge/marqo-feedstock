@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: marqo
-  version: "3.16.0"
+  version: "3.17.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/marqo-${{ version }}.tar.gz
-  sha256: acc2f6509ca434356b4fbb6c4923e15275b2f66e0a71bc042c665810592e1353
+  sha256: 36fa3dd89488ff2c46382669caad866b3d8c316483f26a870eed5ea79ed2d8f4
 
 build:
   number: 0
